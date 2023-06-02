@@ -25,5 +25,6 @@ jobs:
         run: echo "Trainee should add command to run vulture"
       - name: Run tests
         run: echo "Trainee should add command to run test"
+      - run: exit 1
 
 
